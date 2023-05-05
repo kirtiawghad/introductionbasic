@@ -6,10 +6,10 @@ public class PrintInt {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First NUm");
-        int num1 = sc.nextInt();
+        float num1 = sc.nextFloat();
         System.out.println("enter second num");
-        int num2 = sc.nextInt();
-        int sum = num1+num2;
-        System.out.println("your enterd num :"+sum);
+        float num2 = sc.nextFloat();
+        float multiply = num1*num2;
+        System.out.println("your enterd num :"+multiply);
     }
 }
